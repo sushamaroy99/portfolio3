@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    color: #fd562a;
+    
+
+}
+#service-section{
+    min-height: 740px;
+    width: 100%;
+    background: #20223a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#service-sections h2{
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    position: relative;
+
+
+}
+#service-section h2::after{
+    position: absolute;
+    top: 8px;
+    left: -30px;
+    height: 50px;
+    width: 50px;
+    border-top:20px solid red;
+    border-left: 20px solid var(--primery-color);
+}
